@@ -17,7 +17,7 @@ from nltk.corpus import stopwords
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 from data_gather.api import get_tweet_data
-from data_gather.streaming import run_twitter_stream, keywords_to_hear
+from data_gather.streaming import keywords_to_hear, run_twitter_stream
 
 nltk.download('punkt')
 nltk.download('stopwords')
