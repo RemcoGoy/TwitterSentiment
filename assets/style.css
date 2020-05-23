@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+body {
+  background-color: #292929;
+  font-family: "Varela Round", sans-serif;
+  padding: 1% 10% 0%;
+}
+
+div {
+  color: white;
+}
+
+.graph_title {
+  margin-top: 4%;
+  margin-bottom: 1%;
+  font-size: 2rem;
+}
+
+.main-svg {
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+}
+
+.svg-container {
+  color: #292929;
+}
+
+.number_of_tweets {
+  display: flex;
+  flex-direction: column;
+}
